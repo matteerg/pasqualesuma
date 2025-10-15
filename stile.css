@@ -114,9 +114,15 @@ iframe {
 
 /* Responsività iframe per mobile */
 @media (max-width: 768px) {
+  #mapext {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   iframe {
-    width: 100%;
-    height: 300px;
+    width: 100vw;    /* tutta la larghezza dello schermo */
+    height: 350px;   /* altezza maggiore per facilità d'uso */
     border-radius: 20px;
+    margin: 0;       /* elimina margini extra */
   }
 }
