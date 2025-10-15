@@ -92,5 +92,30 @@
       section h2 {
         font-size: 1.2rem;
       }
+
+      
     }
+
+   
+    #mapext{
+      text-align: center;
+      position: center;
+      color: #b9fff7;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    iframe{
+      padding-top: 10px;
+      height: 400px;
+      width: 600px;
+      border-radius: 50px;
+    }
+
+
+
+
+
+
   
